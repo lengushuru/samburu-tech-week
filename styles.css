@@ -426,11 +426,11 @@ footer h2 {
 }
 
 .logo {
-  /* color: var(--red); */
-  background-clip: text;
-  width: 200px;
-  color: transparent;
-  background-position: center;
+  height: 100px;
+}
+
+.top-logo {
+  margin-left: 50px;
 }
 
 .abt-logo {
@@ -452,13 +452,14 @@ footer h2 {
 
 .about-logo {
   width: 50%;
-  height: 100px;
+  height: 150px;
   border: 2px solid rgb(223, 219, 219);
   display: flex;
   align-items: center;
   justify-content: center;
   margin-top: 24px;
   margin-bottom: 20px;
+  box-sizing: border-box;
 }
 
 /* ========================================================Desktop styles========================================================================== */
@@ -574,6 +575,11 @@ footer h2 {
     margin-right: 10px;
     text-align: center;
     flex-direction: column;
+  }
+
+  .programs:hover {
+    border: 2px solid #fff;
+    cursor: pointer;
   }
 
   .item2 p {
