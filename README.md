@@ -11,7 +11,6 @@ REQUIRED SECTIONS:
 - About the Project
   - Built With
   - Live Demo
-- Getting Started
 - Authors
 - Future Features
 - Contributing
@@ -19,15 +18,18 @@ REQUIRED SECTIONS:
 - Acknowledgements
 - License
 
+OPTIONAL SECTIONS:
+- FAQ
+
 After you're finished please remove all the comments and instructions!
 -->
 
 <div align="center">
-
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
+  <!-- <img src="murple_logo.png" alt="logo" width="140"  height="auto" /> -->
   <br/>
 
-  <h3><b>Microverse README Template</b></h3>
+  <h3><b>Samburu tech-week website README file</b></h3>
 
 </div>
 
@@ -35,7 +37,7 @@ After you're finished please remove all the comments and instructions!
 
 # 📗 Table of Contents
 
-- [📖 Personal portfolio Project](#about-project)
+- [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
@@ -43,49 +45,71 @@ After you're finished please remove all the comments and instructions!
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
-  - [Install](#install)
+  <!-- - [Install](#install)-->
   - [Usage](#usage)
-  - [Run tests](#run-tests)
+  <!-- - [Run tests](#run-tests)-->
   - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ](#faq)
+- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Personal portfolio Project <a name="about-project"></a>
+# 📖 samburu tech-week website <a name="about-project"></a>
 
-
-**Samburu Tech-week website** is a  website built using mobile first approach for tech week website.
-
+**samburu tech-week website** is a javascript, css and html project undertaken as end of module1 capstone.
 ## 🛠 Built With <a name="built-with"></a>
 
-- Major languages JavaScript, HTML and CSS
+- Major languages javaScript HTML and CSS
 - Frameworks -none
 - Technologies used -Linters
+ 
+### Tech Stack <a name="tech-stack"></a>
 
+
+
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="#">HTML</a></li>
+  </ul>
+</details>
+
+<details>
+  <summary>Server</summary>
+  <ul>
+    <li><a href="#">None</a></li>
+  </ul>
+</details>
+
+<details>
+<summary>Database</summary>
+  <ul>
+    <li><a href="#">None</a></li>
+  </ul>
+</details>
+
+<!-- Features -->
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
 > Describe between 1-3 key features of the application.
 
-- **mobile menu**
-- **pop up window**
-- **Contact Form**
-- **form validation**
+- **Mobile Menu**
+- **Responve website**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://lengushuru.github.io/samburu-tech-week/))
+
+- [see Live](https://lengushuru.github.io/portfolio-website/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -95,7 +119,6 @@ After you're finished please remove all the comments and instructions!
 
 
 To get a local copy up and running, follow these steps.
-
 
    1.install git, if you already have git installed skip this step.
  
@@ -111,44 +134,83 @@ To get a local copy up and running, follow these steps.
  
    7.navigate to the copy of your cloned repository using cd command
 
-
 ### Prerequisites
 
 In order to run this project you need:
 
--basic knowdlenge on HTML, CSS, javaScript and the code editor of your choice.
-    
--ybasic knowlege of the computer operating system of your choice
+<!--
+Example command:
 
-### Install
+```sh
+ gem install rails
+```
+ -->
+- Basic knowdlenge of HTML, CSS and the code editor of your choice.
+- Basic knowlege of the computer operating system.
 
-Install this project with:
 
- -install git and code editor of your choice
- 
- -clone the repository to your local evironment 
+### Setup <a name="setup"></a>
+
+Clone this repository to your desired folder:
+
+<!--
+Example commands:
+
+```sh
+  cd my-folder
+  git clone git@github.com:myaccount/my-project.git
+```
+--->
+
+### Usage <a name="usage"></a>
+
+To run the project, execute the following command: go to your local repository and double click index.html file to open in a bowser. 
+
+<!--
+Example command:
+
+```sh
+  rails server
+```
+--->
+
+
+### Deployment <a name="triangular_flag_on_post-deployment"></a>
+
+You can deploy this project using: github pages or any host of your choice
+
+<!--
+Example:
+
+```sh
+
+```
+ -->
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
 
-<!-- > Mention all of the collaborators of this project. -->
 
-👤 **Lengushuru charles**
+👤 **Lengushuru Charles**
 
 - GitHub: [@githubhandle](https://github.com/lengushuru)
 - Twitter: [@twitterhandle](https://twitter.com/ngushuru)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/lengushuru)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/lengushuru-charles-a09371111/)
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
 
 
-
-- [ ] **update work section**
-- [ ] **rebuild portfolio with reactjs**
-
+- [ ] **responsive for all devices**
+- [ ] **mobile menu**
+- [ ] **form validation**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -166,9 +228,9 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-<!-- > Write a message to encourage readers to support your project -->
+> Write a message to encourage readers to support your project
 
-If you like this project Give a ⭐️!
+If you like this project please give it a ⭐️.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -176,20 +238,33 @@ If you like this project Give a ⭐️!
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-<!-- > Give credit to everyone who inspired your codebase. -->
 
--Special thanks to Cindy Shin in Behance. Her design was used to build this website.
 
-Inspiration
+I would like to thank microverse for the opportunity to learn how to set up this project.also special thanks to Cindy Shin in Behance, her original design was used in building this website.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- FAQ (optional) -->
 
+## ❓ FAQ (OPTIONAL) <a name="faq"></a>
+
+
+- **how will i setup this project in local machine**
+
+  - run the following command in the terminal: git clone https://github.com/lengushuru/portfolio-website.git
+
+
+- **which code editor should i use**
+
+  - You can use any editor of your choice but i recommend vs code.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](https://choosealicense.com/licenses/mit/) licensed.
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
