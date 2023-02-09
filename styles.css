@@ -18,7 +18,6 @@ ul {
 }
 
 html {
-  /* font-size: 62.5%; */
   scroll-behavior: smooth;
   overflow-x: hidden;
   width: 100vw;
@@ -29,9 +28,6 @@ html {
 }
 
 .mobile-menu {
-  /* display: none; */
-
-  /* color: #fff; */
   position: absolute;
 }
 
@@ -54,7 +50,6 @@ html {
 }
 
 .m-menu {
-  /* display: none; */
   background-color: var(--red);
   display: flex;
   flex-direction: column;
@@ -95,8 +90,6 @@ html {
 
 .show {
   left: 0;
-
-  /* display: flex; */
 }
 
 .home {
@@ -111,13 +104,10 @@ html {
 }
 
 .page-title {
-  /* -webkit-background-clip: text; */
   background-clip: text;
   background-image: url(https://w0.peakpx.com/wallpaper/194/474/HD-wallpaper-red-and-orange-texture-red-aesthetic.jpg);
   color: transparent;
   background-position: right;
-
-  /* font-size: 2.5rem; */
   font-weight: 950;
   font-size: 30px;
 }
@@ -232,8 +222,6 @@ footer p {
 .prog-title {
   display: flex;
   flex-direction: column;
-
-  /* justify-content: center; */
   align-items: center;
 }
 
@@ -260,8 +248,6 @@ footer p {
 
 .main-program {
   width: 100vw;
-
-  /* height: 50vh; */
   background-image: url(./images/main_program.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -275,11 +261,7 @@ footer p {
   height: 100px;
   width: 94%;
   justify-content: space-between;
-
-  /* color: #fff; */
   background-color: rgba(194, 181, 181, 0.5);
-
-  /* opacity: 0.1; */
 }
 
 .item1 {
@@ -292,13 +274,7 @@ footer p {
 .item2 p {
   font-size: 13px;
   font-weight: normal;
-
-  /* width: 250px; */
-
-  /* background-color: red; */
   width: 40vw;
-
-  /* margin-right: 0; */
 }
 
 .join {
@@ -332,12 +308,8 @@ footer p {
 
 .speaker-image {
   background-image: url(./images/speaker-bg.jpg);
-
-  /* background-position-x: 50%; */
   background-size: 60px 60px;
   background-repeat: no-repeat;
-
-  /* background-color: #272a31; */
   padding-top: 15px;
   padding-left: 15px;
   width: 120px;
@@ -347,7 +319,6 @@ footer p {
 }
 
 .speaker-image img {
-  /* width: 150px; */
   width: 100px;
   height: 100px;
 }
@@ -420,9 +391,6 @@ footer {
 }
 
 footer h2 {
-  /* padding-top: 50px; */
-
-  /* margin-left: 24px; */
   color: rgb(16, 23, 61);
 }
 
@@ -537,7 +505,6 @@ footer h2 {
   }
 
   .home {
-    /* height: 50vh; */
     background-image: url(./images/desktop-background.png);
     background-size: cover;
     padding: 8% 15%;
@@ -587,10 +554,6 @@ footer h2 {
     font-size: 14px;
     font-weight: normal;
     width: 100%;
-
-    /* width: 200px; */
-
-    /* margin-right: 0; */
   }
 
   .whole-prog {
