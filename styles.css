@@ -418,6 +418,7 @@ footer {
   align-items: center;
   justify-content: space-around;
 }
+
 footer h2 {
   /* padding-top: 50px; */
 
@@ -642,7 +643,8 @@ footer h2 {
   footer {
     display: flex;
   }
-  .footer{
+
+  .footer {
     display: flex;
   }
 
