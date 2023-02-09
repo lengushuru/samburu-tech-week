@@ -109,7 +109,7 @@ After you're finished please remove all the comments and instructions!
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 
-- [see Live](https://lengushuru.github.io/portfolio-website/)
+- [see Live](https://lengushuru.github.io/samburu-tech-week/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
