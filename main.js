@@ -2,20 +2,19 @@ const navMenu = document.getElementById('m-menu');
 const toggleMenu = document.getElementById('nav-toggle');
 const closeMenu = document.getElementById('nav-close');
 
-toggleMenu.addEventListener('click', () => {
-  navMenu.classList.toggle('show');
-});
+toggleMenu.addEventListener('click', () => navMenu.classList.toggle('show'));
 
-closeMenu.addEventListener('click', () => {
-  navMenu.classList.remove('show');
-});
+closeMenu.addEventListener('click', () => navMenu.classList.remove('show'));
 
 const navLinks = document.querySelectorAll('.nav-item');
 
-function linkshandler() {
-  navMenu.classList.remove('show');
-}
-navLinks.forEach((n) => n.addEventListener('click', linkshandler));
+// function linkshandler() {
+//   navMenu.classList.remove('show');
+// }
+
+// navLinks.forEach((n)=>n.addEventListener('click'),linkhandler)
+
+navLinks.forEach((n) => n.addEventListener('click', ()=>navMenu.classList.remove('show')));
 
 /* eslint-disable no-unused-vars */
 const SpeakersList = [
@@ -62,7 +61,7 @@ for (let i = 0; i < SpeakersList.length; i += 1) {
   speakerCards.innerHTML += `
   <div class="speaker-card">
   <div class="speaker-image">
-    <img src="${SpeakersList[i].imagelink}" alt="">
+    <img src="${SpeakersList[i].imagelink}" alt="${SpeakersList[i].speakername}">
   </div>
   <div class="speaker-about">
     <p class="speaker-name">${SpeakersList[i].speakername}</p>
