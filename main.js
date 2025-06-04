@@ -12,7 +12,7 @@ const navLinks = document.querySelectorAll('.nav-item');
 //   navMenu.classList.remove('show');
 // }
 
-// navLinks.forEach((n)=>n.addEventListener('click'),linkhandler)
+// navLinks.forEach((n)=>n.addEventListener('click',linkhandler)
 
 navLinks.forEach((n) => n.addEventListener('click', ()=>navMenu.classList.remove('show')));
 
@@ -57,18 +57,38 @@ const SpeakersList = [
 ];
 
 const speakerCards = document.querySelector('.speaker-container');
-for (let i = 0; i < SpeakersList.length; i += 1) {
-  speakerCards.innerHTML += `
+let innerHTML = ''
+//we can use for each instead of regular for loop
+
+SpeakersList.forEach((speaker) =>{
+  innerHTML += `
   <div class="speaker-card">
   <div class="speaker-image">
-    <img src="${SpeakersList[i].imagelink}" alt="${SpeakersList[i].speakername}">
+    <img src="${speaker.imagelink}" alt="${speaker.speakername}">
   </div>
   <div class="speaker-about">
-    <p class="speaker-name">${SpeakersList[i].speakername}</p>
-    <p class="speaker-desc">${SpeakersList[i].desc1}</p>
+    <p class="speaker-name">${speaker.speakername}</p>
+    <p class="speaker-desc">${speaker.desc1}</p>
     <div class="underline1"></div>
-    <p class="abt-speaker">${SpeakersList[i].desc2}</p>
+    <p class="abt-speaker">${speaker.desc2}</p>
   </div>
 </div>
   `;
-}
+});
+// for (let i = 0; i < SpeakersList.length; i += 1) {
+//   innerHTML += `
+//   <div class="speaker-card">
+//   <div class="speaker-image">
+//     <img src="${SpeakersList[i].imagelink}" alt="${SpeakersList[i].speakername}">
+//   </div>
+//   <div class="speaker-about">
+//     <p class="speaker-name">${SpeakersList[i].speakername}</p>
+//     <p class="speaker-desc">${SpeakersList[i].desc1}</p>
+//     <div class="underline1"></div>
+//     <p class="abt-speaker">${SpeakersList[i].desc2}</p>
+//   </div>
+// </div>
+//   `;
+// }
+
+speakerCards.innerHTML = innerHTML
