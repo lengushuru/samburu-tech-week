@@ -634,6 +634,7 @@ footer h2 {
 
   .footer {
     display: flex;
+    padding: 2rem;
   }
 
   .footer2 {
